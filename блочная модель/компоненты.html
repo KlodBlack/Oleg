@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="ru">  
+
+<head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+        <link rel="stylesheet" href="style.css">
+        <title>Обучение</title>
+</head>
+<!-- Tab links -->
+ <div class="tab">
+        <button class="tablinks" onclick="openCity(event, 'London')">London</button>
+        <button class="tablinks" onclick="openCity(event, 'Paris')">Paris</button>
+        <button class="tablinks" onclick="openCity(event, 'Tokyo')">Tokyo</button>
+ </div>
+
+
+
+ <!-- Tab content -->
+  
+<div id="London" class="tabcontent">
+        <h3>London</h3>
+        <p>London is the capital city of England.</p>
+</div>
+ 
+<div id="Paris" class="tabcontent"></div>
+        <h3>Paris</h3>
+        <p>Paris is the capital of France.</p>
+</div>
+
+<div id="Tokyo" class="tabcontent"></div>
+        <h3>Tokyo</h3>
+        <p>Tokyo is the capital of Japan.</p>
+</div>
+
+<!-- аккордион -->
+<button class="accordion">Секция 1</button>
+<div class="panel">
+    <p>Loren ipsum...</p>
+</div>
+
+<button class="accordion">Секция 2</button>
+<div class="panel">
+    <p>Lorem ipsum...</p>
+</div>
+
+<button class="accordion">Секция 3</button>
+<div class="panel">
+    <p>Lorem ipsum...</p>
+</div>
+
+<!-- Навигация -->
+<div class="topnav">
+        <a class="active" href="#home">Home</a>
+        <a href="#news">News</a>
+        <a href="#contact">Contact</a>
+        <a href="#about">About</a>
+</div>
+
+<!-- регистрация -->
+<form action="action_page.php">
+        <div class="container">
+                <h1>Register</h1>
+                <p>Пожалуйста заполните форму, чтобы создать аккаунт</p>
+                <hr>
+
+                <label for="email"><b>Email</b></label>
+                <input type="text" placeholder="Enter Email" name="email" id="email" required>
+
+                <label for="psw"><b>Password</b></label>
+                <input type="password" placeholder="Enter Password" name="psw" id="psw" required>
+
+                <label for="psw-repeat"><b>Repeat Password</b></label>
+                <input type="password" placeholder="Repeat Password" name="psw-repeat" id="psw-repeat" required>
+                <hr>
+
+                <p>By creating an account you agree to our <a href="#">Terms & Privacy</a>.</p>
+                <button type="submit" class="registerbtn">Register</button>
+                </div>
+
+                <div class="container signin">
+                        <p>Already have an account <a href="#">Sign in</a>.</p>
+                </div>
+</form>
